@@ -1,0 +1,179 @@
+.main
+  .main__contents
+    .topics
+      .topics_text
+      .topics_image
+      -# 特集、スライドショー
+    .outfits__ranking
+      .outfits__ranking__top
+        .outfits__ranking__top__icon
+          = icon("fas", "crown")
+        .outfits__ranking__top__text
+          人気のコーディネート
+      .outfits__ranking__details
+        .outfits__ranking__details__img
+          = image_tag src="/assets/outfits1.jpg", width: "220"
+          .outfits__ranking__details__bottom
+            .outfits__ranking__details__bottom__user-name
+              chihiro
+            .outfits__ranking__details__bottom__right
+              .outfits__ranking__details__bottom__right__icon
+                = icon("far", "heart")
+              .outfits__ranking__details__bottom__right__count
+                100
+              
+        .outfits__ranking__details__img
+          = image_tag src="/assets/outfits2.jpg", width: "220"
+          .outfits__ranking__details__bottom
+            .outfits__ranking__details__bottom__user-name
+              chihiro
+            .outfits__ranking__details__bottom__right
+              .outfits__ranking__details__bottom__right__icon
+                = icon("far", "heart")
+              .outfits__ranking__details__bottom__right__count
+                100
+        .outfits__ranking__details__img
+          = image_tag src="/assets/outfits3.jpg", width: "220"
+          .outfits__ranking__details__bottom
+            .outfits__ranking__details__bottom__user-name
+              chihiro
+            .outfits__ranking__details__bottom__right
+              .outfits__ranking__details__bottom__right__icon
+                = icon("far", "heart")
+              .outfits__ranking__details__bottom__right__count
+                100
+        
+    .item__ranking
+      .item__ranking__top
+        .item__ranking__top__icon
+          = icon("fas", "crown")
+        .item__ranking__top__text
+          人気のアイテム
+      .item__ranking__details
+        .item__ranking__details__img
+          = image_tag src="/assets/item1.jpg", width: "220"
+          .item__ranking__details__img__bottom
+            .item-brand
+              snidel
+              .bottom-text
+                .item-name
+                  トレンチコート
+                .item-likes
+                  .item-likes__icon
+                    = icon("far", "heart")
+                  .item-likes__count
+                    100
+        .item__ranking__details__img
+          = image_tag src="/assets/item2.jpg", width: "220"
+          .item__ranking__details__img__bottom
+            .item-brand
+              snidel
+              .bottom-text
+                .item-name
+                  トレンチコート
+                .item-likes
+                  .item-likes__icon
+                    = icon("far", "heart")
+                  .item-likes__count
+                  100
+        .item__ranking__details__img
+          = image_tag src="/assets/item3.jpg", width: "220"
+          .item__ranking__details__img__bottom
+            .item-brand
+              snidel
+              .bottom-text
+                .item-name
+                  トレンチコート
+                .item-likes
+                  .item-likes__icon
+                    = icon("far", "heart")
+                  .item-likes__count
+                    100
+    .user__ranking
+      .user__ranking__top
+        .user__ranking__top__icon
+          = icon("fas", "crown")
+        .user__ranking__top__text
+          人気のユーザー
+      .user__ranking__details
+        .user__ranking__details__img
+          =image_tag src="/assets/user1.jpg", width: "220", height:"220", class:"img"
+          .user__ranking__details__img__bottom
+            .popular-user-name
+              chihiro
+            .popular-user-likes
+              .popular-user-likes__icon
+                = icon("far", "heart")
+              .popular-user-likes__count
+                100
+              
+        .user__ranking__details__img
+          =image_tag src="/assets/user2.jpg", width: "220", height:"220", class:"img"
+          .user__ranking__details__img__bottom
+            .popular-user-name
+              kannna
+            .popular-user-likes
+              .popular-user-likes__icon
+                = icon("far", "heart")
+              .popular-user-likes__count
+                100
+        .user__ranking__details__img
+          =image_tag src="/assets/user3.jpg", width: "220", height:"220",class:"img"
+          .user__ranking__details__img__bottom
+            .popular-user-name
+              mai
+            .popular-user-likes
+              .popular-user-likes__icon
+                = icon("far", "heart")
+              .popular-user-likes__count
+                100
+    .new__outfits
+      .new__outfits__top
+        .new__outfits__top__img
+          = icon("fas", "crown")
+        .new__outfits__top__text
+          新着コーディネート
+      .new__outfits__details
+        .new__outfits__details__img
+          =image_tag src="/assets/new-outfits1.jpg", width: "220"
+          .new__outfits__details__img__bottom
+            .new-outfits__user-name
+              chihiro
+            .new-outfits__likes
+              .new-outfits__likes__icon
+                = icon("far", "heart")
+              .new-outfits__likes__count
+                100        
+        .new__outfits__details__img
+          =image_tag src="/assets/new-outfits2.jpg", width: "220"
+          .new__outfits__details__img__bottom
+            .new-outfits__user-name
+              chihiro
+            .new-outfits__likes
+              .new-outfits__likes__icon
+                = icon("far", "heart")
+              .new-outfits__likes__count
+                100
+        .new__outfits__details__img
+          =image_tag src="/assets/new-outfits3.jpg", width: "220"
+          .new__outfits__details__img__bottom
+            .new-outfits__user-name
+              chihiro
+            .new-outfits__likes
+              .new-outfits__likes__icon
+                = icon("far", "heart")
+              .new-outfits__likes__count
+                100
+    .search
+      .search__top
+        .search__top__icon
+          =icon("fas", "search")
+        .search__top__text
+          アイテムを探す
+      .search__contents
+        .search__contents__top
+          .search__contents__top__category
+          .search__contents__top__brand
+        .search__contents__bottom
+          .search__contents__bottom__color
+          .search__contents__bottom__size
